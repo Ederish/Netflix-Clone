@@ -3,7 +3,7 @@ const carrousel = document.querySelector(".carrousel");
 const flechaIzquierda = document.getElementById('flecha-izquierda');
 const flechaDerecha = document.getElementById('flecha-derecha');
 
-const apiKey = "a6304e3aeae5ada05e23b5e4bbbb9eff";
+const apiKey = "//The movie DB accces token";
 const url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1`;
 
 fetch(url)
